@@ -1,0 +1,11 @@
+.purchases {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px;
+}
+
+.purchases__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

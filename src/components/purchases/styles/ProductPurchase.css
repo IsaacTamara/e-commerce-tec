@@ -1,0 +1,35 @@
+.productPurchase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.productPurchase__title {
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+}
+
+.productPurchase__quantity {
+  padding: 10px;
+  font-weight: normal;
+  border: 1px solid var(--color-gray);
+}
+
+@media (min-width: 768px) {
+  .productPurchase {
+    border-bottom: none;
+    margin-left: 150px;
+  }
+
+  .productPurchase__title {
+    width: 33%;
+    text-align: start;
+  }
+
+  .productPurchase__price {
+    width: 33%;
+    text-align: end;
+  }
+}

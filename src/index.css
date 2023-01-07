@@ -1,0 +1,28 @@
+:root {
+  --color-gray: #8D99AE;
+  --color-red: #EF233C;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #EDF2F4;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}

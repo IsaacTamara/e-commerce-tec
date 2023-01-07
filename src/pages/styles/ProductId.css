@@ -1,0 +1,25 @@
+.productId {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 10px
+}
+
+.productId__path {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.productId__home {
+  color: #2B2D42;
+}
+
+.productId__piont {
+  color: var(--color-red);
+  font-size: 8px;
+}
+
+.productId__nameProduct {
+  color: #515151;
+}
