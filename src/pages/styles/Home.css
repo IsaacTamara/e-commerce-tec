@@ -3,7 +3,7 @@
   position: relative;
   flex-direction: row;
   margin: 0 auto;
-  max-width: 2000px;
+  max-width: 1300px;
 }
 
 .home__aside {  
@@ -79,20 +79,6 @@
   
   .home__form-btn {
     font-size: 20px;
-  }
-}
-
-@media (min-width: 590px) { 
-  .home__form-input {
-    font-size: 36px;
-  }
-  
-  .home__form-input::placeholder {
-    font-size: 22px;
-  }
-  
-  .home__form-btn {
-    font-size: 35px;
   }
 }
 

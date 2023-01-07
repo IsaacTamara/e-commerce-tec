@@ -3,8 +3,14 @@
   --color-red: #EF233C;
 }
 
-* {
-    box-sizing: border-box;
+html {
+  font-size: 72.5%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*, *:before, *::after {
+  box-sizing: inherit;
 }
 
 body {

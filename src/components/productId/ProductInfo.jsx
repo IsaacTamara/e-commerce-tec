@@ -85,7 +85,7 @@ const ProductInfo = ({product}) => {
             </div>
           </div>
           <button onClick={handleAddProduct} className="productInfo__btn">
-            Add to cart<i className="bx bx-cart"></i>
+            Add to cart  <i className="bx bx-cart"></i>
           </button>
         </footer>
       </div>
